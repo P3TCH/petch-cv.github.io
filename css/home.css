@@ -1,0 +1,113 @@
+body{
+	background-color: #f6f6f6;
+	font-family: 'Kanit', sans-serif;
+	font-weight: bold;
+}
+
+.container{
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+	min-width: 1020px;
+	/* max-width: 1200px;
+	min-width: 1020px; */
+	margin: auto;
+}
+
+.red{
+	color: red;
+}
+
+.blue{
+	color: rgb(3, 3, 141);
+}
+
+.yellow{
+	color: rgb(34, 179, 58);
+}
+
+.skyblue{
+	color: rgb(135, 175, 235);
+}
+
+p{
+	font-size: 25pt;
+	margin: 0;
+}
+.info{
+	text-align: left;
+	padding-left: 50px;
+}
+.center{
+	text-align: center;
+}
+
+/* ///////////////// LEFT //////////////////// */
+.left{
+	background-color: #292d39;
+	flex-basis: 30%;
+	color: rgb(230, 230, 230);
+}
+
+.left .info{
+	text-align: left;
+	padding-left: 30px;
+}
+
+.left div{
+	font-size: 14pt;
+}
+
+.left hr{
+	height: 3px;
+	background-color: rgb(230, 230, 230);
+	border: none;
+	width: 90%;
+}
+
+.left .profile{
+	padding-top: 30px;
+}
+.left .education{
+	padding-top: 30px;
+}
+.left .contact{
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+/* ///////////////// RIGHT //////////////////// */
+.right{
+	background-color: white;
+	flex-basis: 70%;
+}
+
+.right .top_right{
+	padding-top: 20px;
+}
+
+.right h1{
+	text-align: left;
+	font-size: 50pt;
+	padding-left: 50px;
+	margin: 0;
+}
+
+.right .info{
+	font-size: 14pt;
+	color: black;
+}
+.right hr{
+	height: 3px;
+	background-color: rgb(54, 54, 54);
+	border: none;
+	width: 90%;
+}
+.right .skills{
+	padding-top: 30px;
+}
+
+.right li{
+	padding-left: 20px;
+}
+
